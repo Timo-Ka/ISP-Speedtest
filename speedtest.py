@@ -52,11 +52,6 @@ config = {
         'host': os.getenv('DB_HOST'),
         'database': os.getenv('DB_NAME')
     }
-if debug:
-    print(config["user"])
-    print(config["password"])
-    print(config["host"])
-    print(config["database"])
 
 # Helper functions:
 # ping googel (or whatever) to check it the internet connection exists
