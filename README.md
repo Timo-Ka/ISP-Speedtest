@@ -11,6 +11,8 @@ In the script included is a break condition. If the speedtest cant perform more 
     <li>packetLoss = 99%</li>
 </ul>
 
+<h2> setup</h2>
+
 To get this script running you have to install:
 <ul>
     <li>ookla speedtest cli</li>
@@ -43,5 +45,5 @@ so every 30 minutes is this script triggert what will couse about 48 unic mesure
 
 To get more valid and scattered results the scripts generates a random wait counter between 0 sec and 30 mins.
 
-WIP:
+<h2>WIP:</h2>
 Creat a bash file that install and set up the speedtest from ookla , python3 with required packages, influx and grafana.
