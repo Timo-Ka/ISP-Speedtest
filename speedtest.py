@@ -281,6 +281,10 @@ while True:
                 url = "-"
                 packetLoss = 99
                 break
+            else:
+                speedtestFails3rdTime = "looks like the speedtest fails 3 times... Sys-Ad plz check"
+                writeStatusInFile(logErrorFilePathAndName, speedtestFails3rdTime)
+                break
 
         offlineCounter += 1
 
